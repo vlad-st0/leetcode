@@ -13,7 +13,7 @@ public:
         double y = x;
         double z = (y + (x / y)) / 2;
 
-        while (std::abs(y - z) >= 0.01)
+        while (std::abs(y - z) > 0)
         {
             y = z;
             z = (y + (x / y)) / 2;
