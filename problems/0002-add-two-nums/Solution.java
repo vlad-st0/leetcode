@@ -1,6 +1,27 @@
-import classes.ListNode;
+/**
+ * Custom definition for singly-linked list.
+ */
+class ListNode {
+    int val;
+    ListNode next;
 
-// using a custom ListNode class for testing, because it is not supplied
+    ListNode() {
+        val = 0;
+        next = null;
+    }
+
+    ListNode(int x) {
+        val = x;
+        next = null;
+    }
+
+    ListNode(int x, ListNode node) {
+        val = x;
+        next = node;
+    }
+};
+
+
 class Solution {
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         ListNode res = new ListNode(0);
@@ -15,7 +36,7 @@ class Solution {
             res = res.next;
             carry = ((a + b + carry) / 10);
         }
-        if (carry != 0){
+        if (carry != 0) {
             res.next = new ListNode(carry);
         }
         return ret.next;
