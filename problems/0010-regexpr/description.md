@@ -1,11 +1,11 @@
+10. Regular Expression Matching
+
 Given an input string s and a pattern p, implement regular expression matching with support for '.' and '*' where:
 
     '.' Matches any single character.​​​​
     '*' Matches zero or more of the preceding element.
 
 The matching should cover the entire input string (not partial).
-
- 
 
 Example 1:
 
@@ -21,11 +21,9 @@ Explanation: '*' means zero or more of the preceding element, 'a'. Therefore, by
 
 Example 3:
 
-Input: s = "ab", p = ".*"
+Input: s = "ab", p = "._"
 Output: true
-Explanation: ".*" means "zero or more (*) of any character (.)".
-
- 
+Explanation: "._" means "zero or more (*) of any character (.)".
 
 Constraints:
 
@@ -34,4 +32,3 @@ Constraints:
     s contains only lowercase English letters.
     p contains only lowercase English letters, '.', and '*'.
     It is guaranteed for each appearance of the character '*', there will be a previous valid character to match.
-
