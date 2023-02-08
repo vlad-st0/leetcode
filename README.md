@@ -10,10 +10,13 @@
 | 6   | [Zigzag Conversion](https://leetcode.com/problems/zigzag-conversion/)                                                           | [C++](./problems/0006/solution.cpp) | Medium     |
 | 7   | [Reverse Integer](https://leetcode.com/problems/reverse-integer/)                                                               | [C++](./problems/0007/solution.cpp) | Medium     |
 | 8   | [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/)                                               | [C++](./problems/0008/solution.cpp) | Medium     |
-| 9   | [Palindrome Number]()                                                                                                           | [C++](./problems/0009/solution.cpp) | Easy       |
+| 9   | [Palindrome Number](https://leetcode.com/problems/palindrome-number/)                                                           | [C++](./problems/0009/solution.cpp) | Easy       |
 | 10  | [Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/)                                       | [C++](./problems/0010/solution.cpp) | Hard       |
+| 11  | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/)                                           | [C++](./problems/0011/solution.cpp) | Medium     |
+| 12  | [Integer to Roman](https://leetcode.com/problems/integer-to-roman/)                                                             | [C++](./problems/0012/solution.cpp) | Medium     |
 | 13  | [Roman to Integer](https://leetcode.com/problems/roman-to-integer/)                                                             | [C++](./problems/0013/solution.cpp) | Easy       |
 | 14  | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/)                                                   | [C++](./problems/0014/solution.cpp) | Easy       |
+| 15  | [3Sum](https://leetcode.com/problems/3sum/)                                                                                     | [C++](./problems/0015/solution.cpp) | Medium     |
 | 20  | [Valid Parentheses](https://leetcode.com/problems/longest-common-prefix/)                                                       | [C++](./problems/0020/solution.cpp) | Easy       |
 | 21  | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)                                                 | [C++](./problems/0021/solution.cpp) | Easy       |
 | 26  | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)                       | [C++](./problems/0026/solution.cpp) | Easy       |

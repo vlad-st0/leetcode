@@ -13,13 +13,9 @@ public:
         {
             int num = map.at(s[i - 1]);
             if (num < map.at(s[i]))
-            {
                 result -= num;
-            }
             else
-            {
                 result += num;
-            }
         }
         return result;
     }
