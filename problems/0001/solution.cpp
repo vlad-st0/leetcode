@@ -1,5 +1,7 @@
 #include <vector>
+#include <map>
 
+using std::map;
 using std::vector;
 
 /** 1. Two Sum */
@@ -8,10 +10,13 @@ class Solution
 public:
     vector<int> twoSum(vector<int> &nums, int target)
     {
-        for (int i = 0; i < nums.size() - 1; i++)
-            for (int j = i + 1; j < nums.size(); j++)
-                if (nums[i] + nums[j] == target)
-                    return {i, j};
+        map<int, int> diff;
+        for (int i = 0; i < nums.size(); i++)
+        {
+            if (diff.find(target - nums[i]) != diff.end())
+                return {diff[target - nums[i]], i};
+            diff[nums[i]] = i;
+        }
         return {};
     }
 };
